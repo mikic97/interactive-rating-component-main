@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 1.5rem;
+  font-family: Overpass, "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 15px;
+}
+.main_content img {
+  background-color: hsl(219, 10%, 27%);
+  border-radius: 50%;
+  margin-bottom: 0.2rem;
+  padding: 0.6rem;
+  width: 35px;
+}
+.main_content {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  max-width: 400px;
+}
+
+.main_content h1 {
+  color: #fff;
+  margin-top: 0.5rem;
+  font-size: 26px;
+}
+.main_content p {
+  color: hsl(217, 12%, 63%);
+  margin-top: 0.5rem;
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+.main_content ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.main_content ul li button {
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(219, 10%, 27%);
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Overpass;
+  font-weight: 700;
+  padding-top: 0.2rem;
+}
+
+.main_content ul li button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.main_content ul li button:focus {
+  background-color: hsl(216, 12%, 54%);
+}
+
+.submit {
+  font-size: 1rem;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0.7rem 0 0.6rem;
+  border: none;
+  border-radius: 30px;
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank_you {
+  max-width: 400px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.thank_you img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.thank_you p.rating {
+  background-color: hsl(219, 10%, 27%);
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+  padding: 0.1rem 0.5rem 0;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.thank_you h2 {
+  color: #fff;
+  margin-bottom: 0.7rem;
+}
+
+.thank_you p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
